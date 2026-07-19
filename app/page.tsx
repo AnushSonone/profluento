@@ -75,7 +75,13 @@ export default function Home() {
               <div className="product-line"><span>Lead intelligence</span><i /><span>AI-assisted outreach</span><i /><span>Relationship CRM</span></div>
             </div>
             <div className="hero-product">
-              <ProductFrame src="/assets/images/leads-example.png" alt="Profluento lead intelligence workspace showing scored prospects" priority />
+              <ProductFrame
+                src="/assets/images/leads-example.png"
+                alt="Profluento lead intelligence workspace showing scored prospects"
+                width={2622}
+                height={1946}
+                priority
+              />
             </div>
           </div>
         </section>
@@ -110,11 +116,21 @@ export default function Home() {
             </div>
             <div className="showcase-row">
               <div className="showcase-copy"><span>LEAD DISCOVERY</span><h3>Find the signal in professional context.</h3><p>Score and review prospects with filters, evidence, confidence, sources, and workflow context.</p></div>
-              <ProductFrame src="/assets/images/leads-example.png" alt="Profluento lead discovery table" />
+              <ProductFrame
+                src="/assets/images/leads-example.png"
+                alt="Profluento lead discovery table"
+                width={2622}
+                height={1946}
+              />
             </div>
             <div className="showcase-row reverse">
               <div className="showcase-copy"><span>OUTREACH PREPARATION</span><h3>Move from insight to a thoughtful introduction.</h3><p>Generate and refine personalized outreach while preserving human review and relationship judgment.</p></div>
-              <ProductFrame src="/assets/images/chat-example.png" alt="Profluento AI-assisted outreach workspace" />
+              <ProductFrame
+                src="/assets/images/chat-example.png"
+                alt="Profluento AI-assisted outreach workspace"
+                width={3124}
+                height={2078}
+              />
             </div>
             <DemoVideo />
           </div>
@@ -144,12 +160,11 @@ export default function Home() {
 
         <section className="section closing" id="contact" aria-labelledby="closing-heading">
           <div className="page-shell closing-shell">
-            <span className="section-kicker">PRIVATE PREVIEW</span>
+            <span className="section-kicker">04 / NEXT STEP</span>
             <h2 id="closing-heading">Build a smarter prospecting workflow.</h2>
             <p>See how Profluento can support your lead-discovery, outreach, and relationship-management process.</p>
             <div className="hero-actions">
-              <a className="button button-primary" href={consultationUrl} target="_blank" rel="noopener noreferrer">Book a Profluento consultation <ArrowRight /></a>
-              <a className="button button-secondary" href={consultationUrl} target="_blank" rel="noopener noreferrer">Request access</a>
+              <a className="button button-primary" href={consultationUrl} target="_blank" rel="noopener noreferrer">Book a consultation <ArrowRight /></a>
             </div>
             <small>Consultation-based access for wealth managers, RIAs, and advisory teams.</small>
           </div>

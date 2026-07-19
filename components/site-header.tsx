@@ -26,7 +26,6 @@ export function SiteHeader() {
           <a href="#contact">About</a>
         </nav>
         <div className="desktop-actions">
-          <a className="text-action" href={consultationUrl} target="_blank" rel="noopener noreferrer">Login</a>
           <a className="button button-primary button-small" href={consultationUrl} target="_blank" rel="noopener noreferrer">Book a consultation</a>
         </div>
         <MobileNav />

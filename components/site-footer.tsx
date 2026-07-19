@@ -14,8 +14,8 @@ export function SiteFooter() {
           <a href="#product">Product</a>
           <a href="#demo">How it works</a>
           <a href="#technology">Technology</a>
+          <a href="#contact">About</a>
           <a href={consultationUrl} target="_blank" rel="noopener noreferrer">Book a consultation</a>
-          <a href={consultationUrl} target="_blank" rel="noopener noreferrer">Login</a>
         </nav>
         <div className="footer-contact">
           <a href="mailto:anushse@utexas.edu">anushse@utexas.edu</a>
@@ -24,7 +24,6 @@ export function SiteFooter() {
       </div>
       <div className="footer-bottom">
         <span>© {new Date().getFullYear()} Profluento. All rights reserved.</span>
-        <span>Private preview</span>
       </div>
     </footer>
   );
