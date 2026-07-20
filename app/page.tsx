@@ -114,23 +114,17 @@ export default function Home() {
               <span className="section-kicker">02 / WORKFLOW</span>
               <div><h2 id="showcase-heading">A focused workflow for modern advisory teams.</h2><p>Discover prospects, prepare outreach, organize repeatable workflows, and convert qualified leads into managed client relationships.</p></div>
             </div>
-            <div className="showcase-row">
-              <div className="showcase-copy"><span>LEAD DISCOVERY</span><h3>Find the signal in professional context.</h3><p>Score and review prospects with filters, evidence, confidence, sources, and workflow context.</p></div>
-              <ProductFrame
-                src="/assets/images/leads-example.png"
-                alt="Profluento lead discovery table"
-                width={2622}
-                height={1946}
-              />
-            </div>
-            <div className="showcase-row reverse">
-              <div className="showcase-copy"><span>OUTREACH PREPARATION</span><h3>Move from insight to a thoughtful introduction.</h3><p>Generate and refine personalized outreach while preserving human review and relationship judgment.</p></div>
-              <ProductFrame
-                src="/assets/images/chat-example.png"
-                alt="Profluento AI-assisted outreach workspace"
-                width={3124}
-                height={2078}
-              />
+            <div className="showcase-pair">
+              <div className="showcase-copy">
+                <span>LEAD DISCOVERY</span>
+                <h3>Find the signal in professional context.</h3>
+                <p>Score and review prospects with filters, evidence, confidence, sources, and workflow context.</p>
+              </div>
+              <div className="showcase-copy">
+                <span>OUTREACH PREPARATION</span>
+                <h3>Move from insight to a thoughtful introduction.</h3>
+                <p>Generate and refine personalized outreach while preserving human review and relationship judgment.</p>
+              </div>
             </div>
             <DemoVideo />
           </div>
